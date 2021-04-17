@@ -2,7 +2,7 @@ import IPython
 from IPython.display import HTML
 
 
-def display():
+def GameDisplay():
     IPython.display.HTML('''
     <button id='left-btn'>←</button>
     <button id='right-btn'>→</button>
