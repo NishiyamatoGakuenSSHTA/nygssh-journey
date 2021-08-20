@@ -104,7 +104,7 @@ def GameDisplay():
         }
       };
 
-    document.querySelector('#A-btn').onclick = () => {
+    document.querySelector('#a-btn').onclick = () => {
         var send_num = 0
         _canvasUpdate();
         async function _canvasUpdate() {
@@ -125,7 +125,7 @@ def GameDisplay():
         }
       };
 
-    document.querySelector('#B-btn').onclick = () => {
+    document.querySelector('#b-btn').onclick = () => {
         var send_num = 0
         _canvasUpdate();
         async function _canvasUpdate() {
