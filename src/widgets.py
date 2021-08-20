@@ -3,7 +3,7 @@ from IPython.display import HTML
 
 
 def GameDisplay():
-    IPython.display.HTML('''
+    return IPython.display.HTML('''
     <button id='left-btn'>←</button>
     <button id='right-btn'>→</button>
     <button id='up-btn'>↑</button>
