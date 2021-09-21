@@ -26,7 +26,7 @@ def GameDisplay():
         async function _canvasUpdate() {
             if(send_num < 1){
                 send_num += 1;
-                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', [1], {});
+                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', ["left"], {});
                 results.then(function(value) {
                     parse = JSON.parse(JSON.stringify(value))["data"];
                     parse = JSON.parse(JSON.stringify(parse))["application/json"];
@@ -47,7 +47,7 @@ def GameDisplay():
         async function _canvasUpdate() {
             if(send_num < 1){
                 send_num += 1;
-                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', [2], {});
+                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', ["right"], {});
                 results.then(function(value) {
                     parse = JSON.parse(JSON.stringify(value))["data"];
                     parse = JSON.parse(JSON.stringify(parse))["application/json"];
@@ -68,7 +68,7 @@ def GameDisplay():
         async function _canvasUpdate() {
             if(send_num < 1){
                 send_num += 1;
-                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', [3], {});
+                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', ["up"], {});
                 results.then(function(value) {
                     parse = JSON.parse(JSON.stringify(value))["data"];
                     parse = JSON.parse(JSON.stringify(parse))["application/json"];
@@ -89,7 +89,7 @@ def GameDisplay():
         async function _canvasUpdate() {
             if(send_num < 1){
                 send_num += 1;
-                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', [4], {});
+                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', ["down"], {});
                 results.then(function(value) {
                     parse = JSON.parse(JSON.stringify(value))["data"];
                     parse = JSON.parse(JSON.stringify(parse))["application/json"];
@@ -110,7 +110,7 @@ def GameDisplay():
         async function _canvasUpdate() {
             if(send_num < 1){
                 send_num += 1;
-                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', [11], {});
+                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', ["A"], {});
                 results.then(function(value) {
                     parse = JSON.parse(JSON.stringify(value))["data"];
                     parse = JSON.parse(JSON.stringify(parse))["application/json"];
@@ -131,7 +131,7 @@ def GameDisplay():
         async function _canvasUpdate() {
             if(send_num < 1){
                 send_num += 1;
-                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', [12], {});
+                const results = google.colab.kernel.invokeFunction('notebook.updatadisplay', ["B"], {});
                 results.then(function(value) {
                     parse = JSON.parse(JSON.stringify(value))["data"];
                     parse = JSON.parse(JSON.stringify(parse))["application/json"];
